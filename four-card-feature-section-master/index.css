@@ -1,0 +1,17 @@
+body {
+  text-align: center;
+}
+
+img {
+  display: flex;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  max-width: 400px;
+  max-height: 400px;
+}
