@@ -1,3 +1,3 @@
 # Four-Card-Feauture
 
-Front End Mentor Challenge
+Front End Mentor Challenges
