@@ -1,17 +1,45 @@
+/* poppins */
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"); */
+
 body {
-  text-align: center;
+	text-align: center;
 }
 
-img {
-  display: flex;
+.img-container {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
 }
 
 .cards {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .card {
-  max-width: 400px;
-  max-height: 400px;
+	max-width: 400px;
+	max-height: 400px;
+}
+
+.header {
+	color: #4d4f62;
+}
+
+.header h1 {
+	font-family: Poppins;
+	font-size: 36px;
+	font-weight: 200;
+}
+
+.header h2 {
+	font-family: Poppins;
+	font-size: 36px;
+	font-weight: 600;
+	margin-top: -40px;
+}
+
+.header p {
+	font-family: Poppins;
+	font-weight: 400;
 }
