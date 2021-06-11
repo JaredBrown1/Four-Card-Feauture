@@ -13,14 +13,15 @@
 		/>
 		<link rel="stylesheet" href="index.css" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    	<link rel="preconnect" href="https://fonts.gstatic.com">
+   	 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    	<link rel="preconnect" href="https://fonts.gstatic.com">
+    	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
 
 		<title>Four Card Feature</title>
 	</head>
 	<body>
+		<!-- Header containing the Title and Information -->
 		<div class="header">
 			<h1>Reliable, efficient delivery</h1>
 			<h2>Powered by Technology</h1>
@@ -29,9 +30,17 @@
 				points to ensure that your project is successful
 			</p>
 		</div>
-		<div class="cards">
-			<div class="left-card">
-				<div class="side-column">
+
+		<!-- Cards Container -->
+		<div class="cards-container">
+
+			<!-- The application is split into 3 seperate columns -->
+
+			<!-- Left Column -->
+			<div class="side-column">
+
+			<!-- Left Card -->
+				<section class="card left">
 					<div>
 						<h3>Supervisor</h3>
 						<p>Monitors acicity to identify project roadblocks</p>
@@ -39,10 +48,14 @@
 					<div class="img-container">
 						<img src="images/icon-supervisor.svg" alt="supervisor" />
 					</div>
-				</div>
+				</section>
 			</div>
-				<div class="column2">
-          <div class="card top">
+
+			<!-- Middle Column -->
+			<div class="column2">
+
+				<!-- Top Card -->
+          		<section class="card top">
 					<div>
 						<h3>Team Builder</h3>
 						<p>
@@ -53,8 +66,10 @@
 					<div class="img-container">
 						<img src="images/icon-team-builder.svg" alt="team builder" />
 					</div>
-          </div>
-				<div class="card bottom">
+          		</section>
+
+				  <!--Bottom Card  -->
+				<section class="card bottom">
 					<div>
 						<h3>Karma</h3>
 						<p>Regularly evaluates our talent to ensure quality</p>
@@ -62,10 +77,14 @@
 					<div class="img-container">
 						<img src="images/icon-karma.svg" alt="karma" />
 					</div>
-				</div>
-    </div>
-			<div class="right-card">
-				<div class="side-column">
+				</section>
+    		</div>
+
+			<!-- Right column -->
+			<div class="side-column">
+
+				<!-- Right Card -->
+				<section class="card right">
 					<div>
 						<h3>Calculator</h3>
 						<p>
@@ -75,7 +94,7 @@
 					<div class="img-container">
 						<img src="images/icon-calculator.svg" alt="calculator" />
 					</div>
-				</div>
+				</section>
 			</div>
 		</div>
 	</body>
