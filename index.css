@@ -92,9 +92,10 @@ body {
 		font-size: 20px;
 	}
 
-	.cards {
+	.cards-container {
 		display: flex;
 		flex-direction: column;
+		color: red;
 	}
 
 	.card.left {
